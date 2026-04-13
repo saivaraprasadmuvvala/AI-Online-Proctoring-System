@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Proctoring Report - srinu</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .header { background-color: #2c3e50; color: white; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+        .section { background-color: white; margin: 20px 0; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .violation { border: 1px solid #ddd; padding: 15px; margin-bottom: 10px; border-radius: 5px; border-left: 4px solid #e74c3c; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .stat-card { background-color: #ecf0f1; padding: 15px; border-radius: 5px; text-align: center; }
+        .stat-card h3 { margin: 0 0 10px 0; color: #2c3e50; }
+        .stat-card p { font-size: 2em; font-weight: bold; color: #e74c3c; margin: 0; }
+        img { max-width: 100%; height: auto; border-radius: 5px; }
+        .violation-image { max-width: 300px; border: 1px solid #eee; margin-top: 10px; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .metadata { background-color: #f8f9fa; padding: 10px; border-radius: 3px; margin-top: 10px; font-family: monospace; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Exam Proctoring Report</h1>
+        <h2>srinu (ID: SESSION_14)</h2>
+        <p><strong>Exam:</strong> Programming MCQ Exam | <strong>Date:</strong> 2025-12-25 14:46:00</p>
+    </div>
+
+    <div class="section">
+        <h2>Summary Statistics</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Total Violations</h3>
+                <p>430</p>
+            </div>
+            <div class="stat-card">
+                <h3>Severity Score</h3>
+                <p>430</p>
+            </div>
+            <div class="stat-card">
+                <h3>Average Severity</h3>
+                <p>1.00</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>eyes_closed</h3>
+                <p>100</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>gaze_away</h3>
+                <p>105</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>face_turned</h3>
+                <p>105</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>face_blurry</h3>
+                <p>105</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>gaze_offscreen</h3>
+                <p>1</p>
+            </div>
+            
+            <div class="stat-card">
+                <h3>object_detected</h3>
+                <p>14</p>
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <div class="section">
+        <h2>Violation Timeline</h2>
+        <img src="./reports/generated\images\timeline_SESSION_14.png" alt="Violation Timeline">
+    </div>
+    
+
+    
+    <div class="section">
+        <h2>Violation Frequency</h2>
+        <img src="./reports/generated\images\heatmap_SESSION_14.png" alt="Violation Heatmap">
+    </div>
+    
+
+    <!-- Detailed violations section removed per requirements -->
+</body>
+</html>
