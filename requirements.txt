@@ -3,27 +3,22 @@ streamlit>=1.28.0
 streamlit-webrtc>=0.44.0
 mediapipe>=0.10.0
 numpy>=1.24.0
+opencv-python-headless>=4.8.0
 pillow>=10.0.0
 pandas>=2.0.0  # For data visualization and timeline
 
 # Audio and screen monitoring (optional)
-# pyaudio>=0.2.11  # Audio recording - requires: brew install portaudio (Mac) or apt-get install portaudio19-dev (Linux)
-mss>=9.0.1  # Screen recording
-pyttsx3>=2.90  # Text-to-speech for alerts
+# pyaudio>=0.2.11
+mss>=9.0.1
+pyttsx3>=2.90
 
 # Enhanced alert system
-gTTS>=2.3.0  # Google Text-to-Speech
+gTTS>=2.3.0
 
 # Reporting system
-jinja2>=3.1.0  # Template rendering
-matplotlib>=3.7.0  # Visualization for reports
-pdfkit>=1.0.0  # PDF generation (requires wkhtmltopdf binary)
-# Note: Install wkhtmltopdf separately:
-# macOS: brew install wkhtmltopdf
-# Linux: sudo apt-get install wkhtmltopdf
-# Windows: Download from https://wkhtmltopdf.org/downloads.html
+jinja2>=3.1.0
+matplotlib>=3.7.0
+pdfkit>=1.0.0
 
 # Configuration
-pyyaml>=6.0  # YAML configuration parsing
-
-# Note: sqlite3 is built-in with Python, no need to install
+pyyaml>=6.0
