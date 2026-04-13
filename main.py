@@ -48,6 +48,7 @@ from modules.gaze import GazeEstimator
 from modules.anomaly import AnomalyEngine
 from modules.js_events import create_browser_event_component
 from modules.mouth_detector import MouthDetector
+from modules.mouth_detector import MouthDetector
 from modules.audio_monitor import AudioMonitor
 from modules.screen_recorder import ScreenRecorder
 from modules.alert_speaker import AlertSpeaker
