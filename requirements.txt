@@ -1,23 +1,24 @@
 # Core dependencies
-streamlit==1.33.0
-streamlit-webrtc==0.47.1
-mediapipe==0.10.33
-numpy==2.1.0
-opencv-python-headless==4.10.0.84
-pillow==11.0.0
-pandas==2.2.3
+streamlit>=1.28.0
+streamlit-webrtc>=0.44.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+pandas>=2.0.0  # For data visualization and timeline
 
-# Audio and screen monitoring
-mss==10.0.0
-pyttsx3==2.99
+# Audio and screen monitoring (optional)
+# pyaudio>=0.2.11
+mss>=9.0.1
+pyttsx3>=2.90
 
 # Enhanced alert system
-gTTS==2.5.4
+gTTS>=2.3.0
 
 # Reporting system
-jinja2==3.1.6
-matplotlib==3.10.1
-pdfkit==1.0.0
+jinja2>=3.1.0
+matplotlib>=3.7.0
+pdfkit>=1.0.0
 
 # Configuration
-pyyaml==6.0.3
+pyyaml>=6.0
