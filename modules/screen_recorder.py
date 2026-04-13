@@ -12,9 +12,7 @@ import threading
 
 try:
     import mss
-    MSS_AVAILABLE = True
 except ImportError:
-    MSS_AVAILABLE = False
     mss = None
 
 
