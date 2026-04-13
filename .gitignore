@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pkl
+
+# OS files
+__MACOSX/
+.DS_Store
+
+# Generated folders
+logs/
+recordings/
+evidence/
+reports/
+
+# Database
+*.db
+
+# Model files
+*.pt
+*.pth
+
+# Environment
+.env
+venv/
