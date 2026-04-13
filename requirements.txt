@@ -13,7 +13,6 @@ pyttsx3>=2.90  # Text-to-speech for alerts
 
 # Enhanced alert system
 gTTS>=2.3.0  # Google Text-to-Speech
-pygame>=2.5.0  # Audio playback
 
 # Reporting system
 jinja2>=3.1.0  # Template rendering
