@@ -10,12 +10,13 @@ import time
 
 try:
     import pyaudio
-    PYAUDIO_AVAILABLE = True
-except (ImportError, OSError):
-    PYAUDIO_AVAILABLE = False
+except ImportError:
     pyaudio = None
-    print("⚠️ PyAudio not available - audio monitoring disabled. Install with: brew install portaudio && pip install pyaudio")
 
+try:
+    import mss
+except ImportError:
+    mss = None
 
 class AudioMonitor:
     """Monitors audio for voice/whispering detection."""
