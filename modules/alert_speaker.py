@@ -7,9 +7,7 @@ from typing import Dict, Optional
 
 try:
     import pyttsx3
-    TTS_AVAILABLE = True
 except ImportError:
-    TTS_AVAILABLE = False
     pyttsx3 = None
 
 
