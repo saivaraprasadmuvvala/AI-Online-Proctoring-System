@@ -48,10 +48,21 @@ from modules.gaze import GazeEstimator
 from modules.anomaly import AnomalyEngine
 from modules.js_events import create_browser_event_component
 from modules.mouth_detector import MouthDetector
-from modules.mouth_detector import MouthDetector
-from modules.audio_monitor import AudioMonitor
-from modules.screen_recorder import ScreenRecorder
-from modules.alert_speaker import AlertSpeaker
+
+try:
+    from modules.audio_monitor import AudioMonitor
+except ImportError:
+    AudioMonitor = None
+
+try:
+    from modules.screen_recorder import ScreenRecorder
+except ImportError:
+    ScreenRecorder = None
+
+try:
+    from modules.alert_speaker import AlertSpeaker
+except ImportError:
+    AlertSpeaker = None
 
 # Import new enhanced modules
 from utils.config_loader import get_config
